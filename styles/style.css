@@ -127,21 +127,21 @@
   background: var(--accent-color);
 }
 
-.link a {
+.link  {
   text-decoration: none;
   text-shadow: 2px 2px 0px var(--accent-color);
 }
 
-.link a:hover {
-  outline: 1px solid var(--accent-color-transparent);
+.link:hover {
+  outline: 1px solid currentColor;
 }
 
-.link a:focus {
+.link:focus {
   outline: none;
 }
 
-.link a:focus-visible {
-  border-block-end: 1px solid var(--header-decor-color);
+.link:focus-visible {
+  border-block-end: 1px solid currentColor;
 }
 
 .main {

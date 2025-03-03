@@ -1,5 +1,5 @@
 :root {
-  --font-family: "IBM Plex mono";
+  --font-family: "IBM Plex mono", "Arial", sans-serif;
   --font-weight-regular: normal;
   --font-weight-bold: bold;
   --small-header-text-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
