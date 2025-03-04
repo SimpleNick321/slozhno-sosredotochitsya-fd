@@ -133,15 +133,15 @@
 }
 
 .link:hover {
-  outline: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
 }
 
 .link:focus {
-  outline: none;
+  outline: 1px solid currentColor;
 }
 
 .link:focus-visible {
-  border-block-end: 1px solid currentColor;
+  outline: 1px solid currentColor;
 }
 
 .main {
